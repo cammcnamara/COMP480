@@ -9,7 +9,7 @@ def main():
 
 
 def maxSubArrayEfficent(nums):
-    cur_max, max_so_far = 0, -math.inf
+    cur_max, max_so_far = -math.inf, -math.inf
     for c in nums:
         cur_max = max(c, cur_max + c)
         max_so_far = max(max_so_far, cur_max)
