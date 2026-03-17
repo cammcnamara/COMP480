@@ -47,3 +47,12 @@ matrix3 = [
 ]
 target3 = 1
 print(f"Expected: (0, 0), Got: {matrix(matrix3, target3)}")  # Expected Output: (0, 0)
+
+
+matrix4 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+target4 = 6
+print(f"Expected: (1, 2), Got: {matrix(matrix4, target4)}")  # Expected Output: (1, 2)
+
+matrix5 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+target5 = 10
+print(f"Expected: False, Got: {matrix(matrix5, target5)}")
