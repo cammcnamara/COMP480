@@ -17,6 +17,11 @@ def matrix(matrix: list[list[int]], target: int) -> tuple[int, int] | boolean:
     return False
 
 
+## Time Complexity: O(m + n), where m is the number of rows and n is the number of columns in the matrix.
+## This is because in the worst case, we may have to traverse all the way down the last column and then all the way across the last row.
+## Which represents m + n total steps.
+
+
 # Test Cases
 matrix1 = [
     [1, 4, 7, 11, 15],
